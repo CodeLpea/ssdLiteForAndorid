@@ -16,8 +16,8 @@
 -->
 
 <resources>
-    <string name="app_name">TFLite Demo</string>
-    <string name="activity_name_classification">TFL Classify</string>
-    <string name="activity_name_detection">TFL Detect</string>
-    <string name="activity_name_speech">TFL Speech</string>
+    <string name="app_name">TopHeadLite Demo</string>
+    <string name="activity_name_classification">TopHeadL Classify</string>
+    <string name="activity_name_detection">TopHeadL Detect</string>
+    <string name="activity_name_speech">TopHeadL Speech</string>
 </resources>

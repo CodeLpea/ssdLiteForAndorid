@@ -53,9 +53,9 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
   // Configuration values for the prepackaged SSD model.
   private static final int TF_OD_API_INPUT_SIZE = 300;
-  private static final boolean TF_OD_API_IS_QUANTIZED = true;
-  private static final String TF_OD_API_MODEL_FILE = "ssd_v2_quntized_v1_2.tflite";
-  private static final String TF_OD_API_LABELS_FILE = "file:///android_asset/DNN_labels_list.txt";
+  private static final boolean TF_OD_API_IS_QUANTIZED = false;
+  private static final String TF_OD_API_MODEL_FILE = "tophead01_float_tflite.tflite";
+  private static final String TF_OD_API_LABELS_FILE = "file:///android_asset/Ddn_tophead_labels_list.txt";
    /* private static final String TF_OD_API_MODEL_FILE = "detect.tflite";
     private static final String TF_OD_API_LABELS_FILE = "file:///android_asset/coco_labels_list.txt";*/
   // Which detection model to use: by default uses Tensorflow Object Detection API frozen
